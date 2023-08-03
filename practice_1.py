@@ -32,7 +32,7 @@ print(area)
 '''
 
 #Практическое занятие 4: Работа с булевыми значениями
-
+'''
 is_raining = False
 is_sunny = False
 if is_raining:
@@ -40,3 +40,11 @@ if is_raining:
 elif is_sunny:
     print ("weather is sunny")
 else: print("weather is not sunny and rainny")
+'''
+
+#Практическое занятие 5: Работа со списками
+
+fruits = ["яблоко", "банан", "апельсин", "киви", "чихуахуа"]
+fruits.append("груша")
+for fruits in fruits:
+    print(fruits)
