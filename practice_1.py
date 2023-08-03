@@ -23,9 +23,20 @@ print(about_me)
 
 
 #Практическое занятие 3: Работа с числами
-
+'''
 import math
 radius = 5.0
 area = math.pi * radius**2
 
 print(area)
+'''
+
+#Практическое занятие 4: Работа с булевыми значениями
+
+is_raining = False
+is_sunny = False
+if is_raining:
+    print ("weather is raining")
+elif is_sunny:
+    print ("weather is sunny")
+else: print("weather is not sunny and rainny")
